@@ -9,12 +9,12 @@ const config = createConfig(
   getDefaultConfig({
     // Your dApps chains
     chains: [sepolia],
-    transports: {
-      // RPC URL for each chain
-      [sepolia.id]: http(
-        `https://eth-sepolia.g.alchemy.com/v2/IBJL_ZY-VFcch_A-kvOpeEixe75E0SV_`,
-      ),
-    },
+    // transports: {
+    //   // RPC URL for each chain
+    //   [sepolia.id]: http(
+    //     `https://eth-sepolia.g.alchemy.com/v2/IBJL_ZY-VFcch_A-kvOpeEixe75E0SV_`,
+    //   ),
+    // },
 
     // Required API Keys
     alchemyId: "IBJL_ZY-VFcch_A-kvOpeEixe75E0SV_",
